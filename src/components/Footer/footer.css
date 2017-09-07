@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('../fonts/iconfont.eot');
+  src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/iconfont.woff') format('woff'),
+  url('../fonts/iconfont.ttf') format('truetype'),
+  url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  float: left;
+  margin-right: 12px;
+  color: #ffd801;
+}
+.footer{
+  width: 100%;
+}
+.f_up{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.up_con{
+  width: 1100px;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+.up_con h3{
+  color:white;
+
+}
+.help p{
+  display: flex;
+  justify-content: flex-start;
+  width: 230px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.help p a{
+  color:white;
+  display: block;
+  text-decoration: none;
+  margin-right: 15px;
+}
+.size{
+  display: flex;
+  justify-content:center;
+}
+.size p{
+  margin-right: 10px;
+}
+.size p img{
+  margin: 0 auto;
+}
+.people p{
+  color:white;
+  display: flex;
+  align-items: center;
+}
+.people p i{
+  display: block;
+  margin-right: 10px;
+}
+.f_down{
+  width: 100px;
+  background-color: #CCCCCC;
+  display: flex;
+  justify-content: center;
+}
