@@ -1,0 +1,8 @@
+.count{
+  padding: 50px;
+
+}
+.main_left{
+  display: flex;
+  flex-direction: column;
+}
