@@ -29,11 +29,11 @@ class Footer extends Component {
               <div className="size">
                   <p className='taobao'>
                     <img src={img1} alt="" /><br />
-                  <img src={img2} alt="" />
+                    <img src={img2} alt="" className="ico"/>
                   </p>
                   <p className='weixin'>
                     <img src={img1} alt="" /><br />
-                  <img src={img3} alt="" />
+                    <img src={img3} alt="" className="ico"/>
                   </p>
                 </div>
               </div>
@@ -47,7 +47,7 @@ class Footer extends Component {
             </div>
           </div>
           <div className="f_down">
-            <div className="f_con clearfix">
+            <div className="f_con">
               <div className="down_le">
                 <img src={img4} alt="" />
               </div>
