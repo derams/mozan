@@ -1,4 +1,6 @@
 .content{
+  padding: 20px 50px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  background-color: #2b2e33;
 }

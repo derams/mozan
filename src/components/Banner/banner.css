@@ -1,9 +1,10 @@
 .banner{
-  padding: 40px;
-  width: 1020px;
+  padding: 70px;
+  width: 1060px;
   background-color: #fde133;
 }
 .banner img {
-  width: 280px;
+  width: 300px;
   margin: 0;
+  margin-left: 40px;
 }

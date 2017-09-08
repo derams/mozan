@@ -26,7 +26,7 @@ class Footer extends Component {
               </div>
               <div className="about">
                 <h3>关于我们</h3><br />
-              <div className="size">
+              <div className="size1">
                   <p className='taobao'>
                     <img src={img1} alt="" /><br />
                     <img src={img2} alt="" className="ico"/>

@@ -1,0 +1,68 @@
+.size{
+  /*padding-left: 50px;*/
+  display: flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+.size li{
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  align-items: center;
+}
+.size li>span{
+width: 64px;
+line-height: 26px;
+font-size: 16px;
+color: #000;
+text-align: center;
+border-radius: 8px;
+margin-top: 1px;
+background-color: #fff;
+}
+.size li p{
+  margin-left: 30px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 310px;
+}
+.size .price p{
+  align-items: center;
+  width: 150px;
+}
+.size li p a{
+width: 70px;
+line-height: 24px;
+font-size: 14px;
+border: 1px solid #fff;
+text-decoration: none;
+text-align: center;
+color: #fff;
+display: block;
+border-radius: 8px;
+margin-right: 5px;
+margin-bottom: 5px;
+}
+.size li:nth-child(4) p{
+  justify-content: space-between;
+}
+.size .size_count{
+  color: white;
+}
+.size li:first-child p{
+  display: flex;
+}
+.size li:first-child p b{
+  font-size: 26px;
+  color: #fdd900;
+  font-weight: 600;
+
+}
+.size li:first-child p span {
+  font-size: 16px;
+  color: #fff;
+  width: 140px;
+  display: block;
+  text-decoration: line-through;
+}

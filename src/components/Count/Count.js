@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import img from '../images/yugou_03.png'
+import './count.css'
 
 class Count extends Component {
   render(){
@@ -39,7 +40,7 @@ class Count extends Component {
                 </span>
               </div>
               <p>
-                <span>注:</span>商品将于<span>2017/8/31</span>统一发货！
+                <span className="color_span">注:</span>商品将于<span className="color_span">2017/8/31</span>统一发货！
               </p>
             </div>
           </div>
