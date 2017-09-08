@@ -1,10 +1,12 @@
 .count{
   display: flex;
+  padding-right: 40px;
+  border-right: 2px solid #ccc;
 }
 .main_left{
   display: flex;
   flex-direction: column;
-  border-right: 2px solid #ccc;
+
 }
 .le_up{
   display: flex;

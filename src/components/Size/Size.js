@@ -2,7 +2,54 @@ import React, { Component } from 'react'
 import './size.css'
 
 class Size extends Component {
+  state = {
+    types:[
+      {type:'iphone 5'},
+      {type:'iphone 6'},
+      {type:'iphone 6+'}
+    ],
+    sizes:[
+      {size:'XXS'},
+      {size:'XS'},
+      {size:'S'},
+      {size:'M'},
+      {size:'L'},
+      {size:'XL'},
+      {size:'XXL'}
+    ],
+    styleIndex:0,
+    num:1
+  }
+  handleClick = (i) => {
+    this.setState({
+      styleIndex:i
+    })
+  }
+  handleClick1 = (i) => {
+    this.setState({
+      styleIndex:i
+    })
+  }
+  handleSub = () => {
+    this.setState({
+        num:this.state.num-1
+    })
+  }
+  handleAdd = () => {
+    this.setState({
+        num:this.state.num+1
+    })
+  }
   render(){
+    const newtype = this.state.types.map((item,i) =>(<a
+      className={`${this.state.styleIndex===i&& 'type'}`} key={i} onClick={() => this.handleClick(i)}>
+      {item.type}
+    </a>))
+    const newsizes = this.state.sizes.map((item,i)=>(
+      <a className= {`${this.state.styleIndex===i&& 'type'}`} key={i} onClick={() => this.handleClick1(i)}>
+        {item.size}
+      </a>
+    ))
     return(
       <div className="size">
         <ul>
@@ -12,28 +59,22 @@ class Size extends Component {
           </li>
           <li className="style">
             <span>款式</span>
-            <p><a href="javascript:;">iphone 5</a>
-            <a href="javascript:;">iphone 6</a>
-            <a href="javascript:;">iphone 6+</a></p>
+            <p>
+              {newtype}
+            </p>
           </li>
           <li className="sizes">
             <span>尺码</span>
             <p>
-              <a href="javascript:;">XXS</a>
-              <a href="javascript:;">XS</a>
-              <a href="javascript:;">S</a>
-              <a href="javascript:;">M</a><br/>
-              <a href="javascript:;">L</a>
-              <a href="javascript:;">XL</a>
-              <a href="javascript:;">XXL</a>
+              {newsizes}
             </p>
           </li>
           <li className="quantity">
             <span>数量</span>
             <p>
-              <a href="javascript:;" className="size_sub">-</a>
-              <span className="size_count">1</span>
-              <a href="javascript:;" className="size_add">+</a>
+              <a href="javascript:;" className="size_sub" onClick={this.handleSub}>-</a>
+              <span className="size_count">{this.state.num}</span>
+              <a href="javascript:;" className="size_add" onClick={this.handleAdd}>+</a>
             </p>
           </li>
         </ul>
