@@ -1,0 +1,32 @@
+.carttitle{
+  display: flex;
+  padding: 24px 50px 64px 50px;
+  width: 1100px;
+  justify-content: space-between;
+  background-image: url('../images/line3_03.jpg');
+  background-repeat: no-repeat;
+}
+.carttitle p {
+  border-left: 5px solid black;
+  height: 60px;
+  padding-left: 21px;
+  color: #4d525a;
+  font-size: 28px;
+  padding-top: 16px;
+  margin: 0;
+}
+.carttitle ul{
+  display: flex;
+  justify-content: flex-start;
+}
+.carttitle ul li{
+  font-size: 18px;
+  color:#52545a;
+  border-bottom:2px solid black;
+  margin-left: 20px;
+  list-style: none;
+}
+.carttitle ul li:first-child{
+    font-weight: 800;
+    border-bottom: 5px solid black;
+}

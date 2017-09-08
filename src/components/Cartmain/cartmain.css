@@ -1,0 +1,42 @@
+.cartmain{
+  padding: 20px 70px;
+
+}
+.cartmain ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+}
+.cartmain ul li{
+  display: flex;
+  justify-content: space-between;
+}
+.cartmain ul li img{
+  width: 96px;
+  height: 96px;
+
+}
+.cartmain ul li input{
+  width: 20px;
+  border:0;
+}
+.cartmain ul li:last-child{
+  display: none;
+}
+.cartmain ul li p{
+  margin-left: 20px
+}
+.cartmain ul li a{
+  text-decoration: none;
+  color:black;
+}
+.cartmain .cart_add, .cartmain .cart_sub{
+  display: block;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #4f545c;
+  text-align: center;
+  line-height: 36px;
+}
