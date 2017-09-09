@@ -1,0 +1,136 @@
+.add{
+  background-color: #fff;
+  padding-bottom: 80px;
+}
+.add_con{
+    padding: 24px 50px;
+    background-image: url('../images/bg1_03.jpg');
+    background-repeat: no-repeat;
+}
+.add_con>p{
+    margin: 0;
+    line-height: 60px;
+    color:#292e32;
+    font-size: 26px;
+    padding-left: 22px;
+    border-left: 5px solid black;
+}
+.add_comment{
+    overflow: hidden;
+    margin-top: 87px;
+    padding:10px;
+    border-bottom: 2px solid #babec9;
+    border-top: 2px solid #babec9;
+}
+.add_comment p{
+    margin: 0;
+    float:left;
+    color:#2d2e30;
+    padding-right: 20px;
+}
+.add_comment p img{
+    float:left;
+    padding-right: 10px;
+}
+.add_comment p span{
+    display:block;
+    float:left;
+    padding-top: 26px;
+    line-height: 22px;
+    color:#2b2e33;
+}
+.add_comment>span{
+    display:block;
+    margin-top: 10px;
+    padding:4px 0 4px 21px;
+    color:#6f7277;
+    font-size: 12px;
+    float:left;
+    border-left:2px solid #fdd900;
+}
+.add_comment>a{
+    display:block;
+    margin-top: 24px;
+    float:right;
+    text-align:center;
+    font-size: 18px;
+    line-height: 46px;
+}
+.account{
+    color:#010002;
+    background-color: #fcd901;
+    width: 210px;
+}
+.return{
+    width: 132px;
+    background-color: #2b2e33;
+    margin-right: 10px;
+    color:#f6f6f6;
+}
+.add_tip{
+    padding-top: 78px;
+    padding-bottom: 30px;
+}
+.add_tip>span{
+    display:block;
+    float:left;
+}
+.add_tip>div{
+    float:left;
+    border:1px solid #fdd900;
+    margin-left: 9px;
+    margin-top: 11px;
+    width: 993px;
+}
+.add_shop{
+  display: flex;
+  justify-content: space-between;
+}
+.add_shop div{
+    float:left;
+    padding-right:30px;
+}
+.add_shop div:last-child{
+    padding:0;
+}
+.add_shop img{
+    display:block;
+}
+.add_shop div p{
+    margin: 0;
+    overflow: hidden;
+    padding:10px;
+    border:1px solid #ccc;
+    font-size: 14px;
+    line-height: 20px;
+    border-top:0;
+}
+.add_shop div p strong{
+    display:block;
+    margin-bottom: 40px;
+}
+.add_shop div p span{
+    display:block;
+    font-size: 20px;
+    color:#df2322;
+    float:left;
+
+}
+.add_shop div p span b{
+    font-weight: 500;
+}
+.add_shop div p a{
+    display:block;
+    float:right;
+    width: 66px;
+    font-size: 18px;
+    color:#ffd801;
+    border:2px solid #ffd801;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.add_shop div p a i{
+  margin: 0;
+
+}
