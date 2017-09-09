@@ -1,0 +1,9 @@
+.order{
+  width: 1200px;
+  background-color: white;
+}
+.order_wrap{
+  background-image: url('../images/line3_03.jpg');
+  background-repeat: no-repeat;
+  padding: 0 50px;
+}

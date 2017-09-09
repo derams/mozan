@@ -1,0 +1,115 @@
+.Ordercoupon_value{
+  width: 1100px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.Ordercoupon_value p{
+  border-bottom: 2px solid #000;
+  overflow: hidden;
+}
+.Ordercoupon_value span{
+  float: left;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  line-height: 51px;
+}
+.Ordercoupon_sanjiao{
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  padding-left: 10px;
+  color: #000;
+}
+.Ordercoupon_value input{
+  float: left;
+  width: 255px;
+  line-height: 46px;
+}
+.Ordercoupon_value input:nth-child(2){
+  margin-right: 10px;
+  margin-left: 348px;
+}
+.Ordercoupon_value a{
+  display: block;
+  text-decoration: none;
+  float: right;
+  margin-left: 6px;
+  width: 92px;
+  line-height: 46px;
+  color: #000;
+  background-color: #fdd900;
+  text-align: center;
+}
+.Ordercoupon_img{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 25px;
+}
+
+.Ordercoupon_img img{
+  padding-top: 25px;
+}
+.Ordercoupon_remark{
+  width: 1100px;
+  margin: 0 auto;
+}
+.Ordercoupon_beizhu span{
+  font-size: 20px;
+  padding-bottom: 20px;
+  font-weight: 600;
+  color: #000;
+  border-bottom: 2px solid #000;
+  display: block;
+}
+.Ordercoupon_beizhu textarea{
+  resize: none;
+  width: 1094px;
+  height: 108px;
+}
+.Ordercoupon_number{
+  margin-top: 50px;
+}
+.Ordercoupon_number1{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  border-bottom: 2px solid #000;
+  padding-bottom: 10px;
+}
+.Ordercoupon_number1 li{
+  color: #000;
+}
+.Ordercoupon_number1 li:nth-child(6){
+  margin-right: 37px;
+}
+.Ordercoupon_number2{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.Ordercoupon_number2 li{
+  font-size: 14px;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+.Ordercoupon_number2 li:nth-child(11){
+  margin-right: 0;
+  font-size: 26px;
+  color: #ed0003;
+}
+.Ordercoupon_number .Ordercoupon_submit{
+  margin-top: 50px;
+  display: block;
+  float: right;
+  width: 220px;
+  line-height: 60px;
+  font-size: 26px;
+  color: #000;
+  background-color: #fdd900;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 110px;
+}

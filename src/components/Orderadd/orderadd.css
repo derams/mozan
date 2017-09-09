@@ -1,0 +1,21 @@
+.orderadd p{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  border-bottom: 2px solid #000;
+  padding-bottom: 15px;
+}
+.orderadd>p span {
+  font-size: 16px;
+  font-weight: 600;
+}
+.address1{
+  font-family:"iconfont" !important;
+  font-size:18px;
+  font-style:normal;
+  float: left;
+  margin-right: 10px;
+  color: #000;
+  font-weight: 700;
+}

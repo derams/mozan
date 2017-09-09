@@ -1,0 +1,134 @@
+.ordergoods{
+  width: 1100px;
+  margin: 0 auto;
+  margin-top: 63px;
+}
+.ordergoods h3{
+  font-size: 20px;
+  color: #000;
+  font-weight: 600;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #000;
+}
+.ordergoods h3 a{
+  display: block;
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  float: right;
+  font-weight: 400;
+}
+.ordergoods ul{
+  list-style: none;
+  padding: 0;
+}
+.ordergoods ul li{
+  border-bottom: 1px solid #d1d7e3;
+  overflow: hidden;
+}
+.ordergoods ul li img{
+  float: left;
+  padding: 10px 10px 10px 24px;
+  display: block;
+  width: 66px;
+  height: 66px;
+}
+.ordergoods ul li span:nth-child(2){
+  float: left;
+  margin-top: 33px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.ordergoods ul li span:nth-child(3){
+  margin-left: 200px;
+  margin-right: 30px;
+  color: #848589;
+  font-size: 14px;
+  margin-top: 33px;
+  float: left;
+}
+.ordergoods ul li span:nth-child(4){
+  font-size: 14px;
+  margin-top: 33px;
+  float: left;
+  color: #848589;
+}
+.ordergoods ul li span:nth-child(5){
+  margin-left: 108px;
+  margin-right: 84px;
+  font-size: 14px;
+  margin-top: 33px;
+  float: left;
+}
+.ordergoods ul li span:nth-child(6){
+  margin-right: 25px;
+  float: left;
+  font-size: 14px;
+  margin-top: 33px;
+}
+.ordergoods ul li:nth-child(2){
+  border-bottom: 2px solid #000;
+}
+.orderway{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #b8beca;
+  align-items: center;
+}
+.orderway h3{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 46px;
+  padding-right: 21px;
+  float: left;
+  display: block;
+  margin: 0;
+  border: 0;
+}
+.way1>img,.logistics>img{
+  float: left;
+  display: block;
+}
+.orderway>div{
+  display: flex;
+  align-items: center;
+}
+
+.bill a:nth-child(3){
+  border:0;
+  background-image: url('../images/332_03.png');
+  background-repeat: no-repeat;
+
+}
+.bill a{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  line-height: 46px;
+  width: 103px;
+  font-size: 16px;
+  color: #000;
+  border: 3px solid #babec9;
+  float: left;
+  margin-right: 10px;
+}
+.conserve{
+  float: right;
+}
+.conserve input{
+  float: left;
+  width: 163px;
+  height: 46px;
+}
+.conserve>a{
+  display: block;
+  text-decoration: none;
+  background-color: #fdd900;
+  margin-left: 4px;
+  font-size: 14px;
+  color: #000;
+  text-align: center;
+  width: 46px;
+  line-height: 46px;
+  float: left;
+}

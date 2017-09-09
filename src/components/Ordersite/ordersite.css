@@ -1,0 +1,40 @@
+.ordersite1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family:"iconfont";
+  border-bottom: 1px solid #d1d7e3;
+}
+.ordersite1 .ordersite_remo{
+  display: none;
+}
+.ordersite1 i{
+  font-style:normal
+}
+.ordersite1 p:nth-child(2){
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+.ordersite1 p:nth-child(2) a{
+  display: block;
+  font-size: 16px;
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+}
+.ordersite1 .ordersite_moren{
+  display: none !important;
+}
+.order_more{
+  display: block;
+  margin-top: 20px;
+  background-image: url('../images/bg1_03.png');
+  background-repeat: repeat-x;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  color: #000;
+  font-weight: 500;
+}
