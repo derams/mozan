@@ -18,6 +18,7 @@ class Size extends Component {
       {size:'XXL'}
     ],
     styleIndex:0,
+    sizeIndex:0,
     num:1
   }
   handleClick = (i) => {
@@ -27,7 +28,7 @@ class Size extends Component {
   }
   handleClick1 = (i) => {
     this.setState({
-      styleIndex:i
+      sizeIndex:i
     })
   }
   handleSub = () => {
@@ -42,11 +43,11 @@ class Size extends Component {
   }
   render(){
     const newtype = this.state.types.map((item,i) =>(<a
-      className={`${this.state.styleIndex===i&& 'type'}`} key={i} onClick={() => this.handleClick(i)}>
+      className={`${this.state.styleIndex===i&& 'type'}`} key={i} onClick={() => this.handleClick(i)} href="javascript:;">
       {item.type}
     </a>))
     const newsizes = this.state.sizes.map((item,i)=>(
-      <a className= {`${this.state.styleIndex===i&& 'type'}`} key={i} onClick={() => this.handleClick1(i)}>
+      <a className= {`${this.state.sizeIndex===i&& 'type'}`} key={i} onClick={() => this.handleClick1(i)} href="javascript:;">
         {item.size}
       </a>
     ))

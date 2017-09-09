@@ -1,0 +1,67 @@
+.cartcon{
+    margin: 50px 50px 80px 50px;
+    background-color: #2b2e33;
+    overflow: hidden;
+}
+.cartcon ul{
+    padding:17px 0 17px 20px;
+    float:left;
+    overflow: hidden;
+    list-style: none;
+    margin: 0;
+}
+.cartcon ul li{
+    line-height: 26px;
+    font-size: 14px;
+    color:white;
+    float:left;
+    padding-right: 20px;
+}
+.cartcon a{
+    color:white;
+    text-decoration: none;
+}
+.cartcon .remo{
+    background-image: url('../images/remo_03.jpg');
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    margin-left: 14px;
+}
+.cartcon ul li:nth-child(2){
+    border-left: 2px solid #6f7277;
+    padding-left: 20px;
+}
+.cartcon ul li:nth-child(2) span{
+    color:#fbdb00;
+}
+.cartcon p{
+    padding:15px 10px 10px 0;
+    float:right;
+    line-height: 16px;
+    font-size: 12px;
+    color:white;
+    text-align: right;
+    margin: 0;
+}
+.cartcon p>p{
+    float:right;
+}
+.cartcon>span{
+    padding-top:15px;
+    padding-right: 20px;
+    font-size: 36px;
+    color:#fdd901;
+    display:block;
+    float:right;
+    line-height: 36px;
+}
+.cartcon>a{
+    display:block;
+    float:right;
+    font-size: 26px;
+    color:black;
+    width: 220px;
+    text-align: center;
+    line-height: 60px;
+    background-color: #fdd900;
+}
