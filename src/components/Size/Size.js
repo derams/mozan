@@ -32,6 +32,9 @@ class Size extends Component {
     })
   }
   handleSub = () => {
+    if(this.state.num <1){
+      return
+    }
     this.setState({
         num:this.state.num-1
     })

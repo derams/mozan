@@ -6,7 +6,6 @@
     top:0;
     left:0;
     z-index: 9;
-    display:none;
     animation: my_first 1s linear;
 }
 .modal_card{

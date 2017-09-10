@@ -69,22 +69,22 @@ class Count extends Component {
               <div className="over">
                 <span className="day">
                 <em>{`${date}`}</em>
-                <b>:</b>
                 <br />
                 <b>天</b>
                 </span>
+                <b>:</b>
                 <span className="hour">
                 <em>{`${hour}`}</em>
-                <b>:</b>
                 <br />
                 <b>时</b>
                 </span>
+                <b>:</b>
                 <span className="minute">
                 <em>{`${min}`}</em>
-                <b>:</b>
                 <br />
                 <b>分</b>
                 </span>
+                <b>:</b>
                 <span className="second">
                 <em>{`${sec}`}</em>
                 <br />

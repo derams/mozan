@@ -32,20 +32,22 @@
   width: 400px;
   border-radius: 8px;
   padding-left: 20px;
-  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
 }
 .over>span {
-    float: left;
     font-size: 34px;
     font-weight: 400;
     color: #fdd900;
     display: block;
 }
-.over>span>b:nth-child(4) {
-    font-size: 16px;
-    display: block;
-    float: left;
-    margin-left: 14px;
+.over>span>b{
+  font-size: 16px;
+}
+.over>b {
+  font-size: 34px;
+  font-weight: 400;
+  color: #fdd900;
 }
 .over em{
   font-style:normal
