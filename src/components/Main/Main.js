@@ -11,7 +11,7 @@ class Main extends Component {
   render(){
     return(
       <div className="main">
-        <Pay/>
+        <Home/>
       </div>
     )
   }

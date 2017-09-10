@@ -4,6 +4,7 @@ import More from './svg/More'
 import Search from './svg/Search'
 import img1 from '../images/logo.png'
 import Shop from './svg/Shop'
+import Modal from '../Modal/Modal.js'
 
 class Header extends Component {
   render(){
@@ -16,6 +17,7 @@ class Header extends Component {
             <a className='car' href="javascript:;"><Shop color='#CCCCCC' wid='44' hei='30'/></a>
             <a className='login' href="javascript:;">登录/注册</a>
           </div>
+          <Modal/>
       </div>
     )
   }
