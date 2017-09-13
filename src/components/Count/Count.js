@@ -53,7 +53,10 @@ class Count extends Component {
         })
   }
   componentDidMount = () => {
-    window.setInterval(this.tick, 1000)
+    this.trim=window.setInterval(this.tick, 1000)
+  }
+  componentDidUnmount = () => {
+    window.clearIntarval(this.trim)
   }
   render(){
     const { date, hour, min, sec } = this.state

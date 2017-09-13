@@ -3,6 +3,7 @@ import './cashier.css'
 import img1 from "../images/zhifubao.jpg"
 import img2 from "../images/1_03.png"
 import img3 from "../images/xuankuang.png"
+import { Link } from 'react-router-dom'
 class Cashier extends Component {
   render(){
     return(
@@ -42,7 +43,7 @@ class Cashier extends Component {
             </div>
           </div>
           <div className="cashier_payment clearfix">
-            <a href="#">提交订单</a>
+            <Link to='/pay'>提交订单</Link>
           </div>
         </div>
         </div>

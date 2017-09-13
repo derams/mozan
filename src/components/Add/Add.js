@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import img1 from '../images/shop_07.jpg'
 import img2 from '../images/88_03.jpg'
 import './add.css'
+import { Link } from 'react-router-dom'
 class Add extends Component {
   render(){
     return(
@@ -14,7 +15,7 @@ class Add extends Component {
                     <span>龙之谷六周年限定礼包大Boss<br />冰龙款男士T恤</span>
                 </p>
                 <span>款式：iphone5 <br />尺码：XL <br />数量：X1</span>
-                <a href="./shop.html" className="account">去购物车结算</a>
+              <Link to="/cart" className="account">去购物车结算</Link>
                 <a href="../index.html" className="return">返回</a>
             </div>
             <div className="add_tip">

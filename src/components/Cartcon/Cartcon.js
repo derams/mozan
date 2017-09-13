@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './cartcon.css'
+import { Link } from 'react-router-dom'
 
 class Cartcon extends Component {
   render(){
@@ -15,7 +16,7 @@ class Cartcon extends Component {
               共<span class="order">4</span>件商品，已选择<span class="order1">1</span>件
           </li>
         </ul>
-          <a href="javascript:;" className="close">结算</a>
+          <Link to="/order" className="close">结算</Link>
         <span>￥<b className="total">0.00</b></span>
         <p>
             合计：<br />[不含运费]

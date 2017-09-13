@@ -6,6 +6,7 @@ import img3 from "../images/img_03.png"
 import img4 from "../images/img_03.png"
 import img5 from "../images/img_04_03.png"
 import img6 from "../images/img_04_03.png"
+import { Link } from 'react-router-dom'
 class Ordercoupon extends Component {
   render(){
     return(
@@ -52,7 +53,7 @@ class Ordercoupon extends Component {
                   <li>=</li>
                   <li>￥168.00</li>
                 </ul>
-                <a className='Ordercoupon_submit' href="./cashier_desk.html">提交订单 </a>
+                <Link className='Ordercoupon_submit' to="/cashier">提交订单 </Link>
               </div>
             </div>
       </div>

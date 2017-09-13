@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './pay.css'
 import img from "../images/success_03.png"
+import { Link } from 'react-router-dom'
 class Pay extends Component {
   render(){
     return(
@@ -25,8 +26,8 @@ class Pay extends Component {
               <div className="pay_other">
                   <span>订单号：12345678912345<br />成功支付:￥168.00</span>
                   <span>
-                      <a href="#">继续逛逛</a>
-                      <a className='pay_look' href="#">查看订单</a>
+                      <Link to="/add">继续逛逛</Link>
+                    <Link className='pay_look' to="order">查看订单</Link>
                   </span>
               </div>
           </div>
